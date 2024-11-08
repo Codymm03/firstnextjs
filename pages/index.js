@@ -14,7 +14,9 @@ export default function Home() {
           Cody Matz welcomes <a href="https://nextjs.org">Next.js!</a>
         </h1>
 
-        <Counter/>
+        <Counter name={"Counter1"} mult={1}/>
+        <Counter name={"Counter2"} mult={2}/>
+
     </div>
   );
 }
